@@ -26,4 +26,5 @@ kafka/bin/kafka-topics.sh --create --partitions 2 --replication-factor 1 --topic
 kafka/bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic gzip_topic --zookeeper localhost:2181
 kafka/bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic snappy_topic --zookeeper localhost:2181
 kafka/bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic lz4_topic --zookeeper localhost:2181
+kafka/bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic zstd_topic --zookeeper localhost:2181
 kafka/bin/kafka-topics.sh --create --partitions 3 --replication-factor 1 --topic topic3 --zookeeper localhost:2181
